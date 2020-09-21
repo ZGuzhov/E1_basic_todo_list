@@ -5,6 +5,6 @@ before-install:
   - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
 install:
   - pip install -r requirements.txt
-# command to run tests
+# комманда для запуска теста
 script:
   - pytest
